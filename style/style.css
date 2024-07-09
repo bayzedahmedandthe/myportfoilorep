@@ -6,7 +6,8 @@
 
   font-style: normal;
   font-variation-settings:
-    "wdth"100;
+    "wdth"100%;
+
 }
 
 .nav-tittle {
@@ -41,6 +42,7 @@ nav ul li {
   font-size: 20px;
   padding: 18px 35px;
   border: none;
+ 
 
 }
 
@@ -201,13 +203,29 @@ main {
   font-size: 16px;
   color: #rgba(117, 117, 117, 1);
 }
-.download-cv{
-  color: #FD6E0A;
-  margin-top: 50px;
-  text-align: center;
- 
+/* .btn-primary{ */
+background-color: #FD6E0A;
+margin-left: 700px;
+margin-right: 700px;
 }
-button{
-  padding: 17px 19px;
- 
+.footer{
+  height: 780px;
+  width: 1600px;
+  background-color: #FFF8F3;
+}
+/* footer-styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+footer input[type="text"], footer input[type="email"],   footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+
 }
