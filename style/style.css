@@ -1,80 +1,213 @@
-
 /* nav tittle style */
 
 .open-sansnormal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-   
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 
-  .nav-tittle{
-    font-size: 45px;
-    font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth"100;
 }
 
-.text-primary{
- color: #FD6E0A;
+.nav-tittle {
+  font-size: 45px;
+  font-weight: 800;
 }
+
+.text-primary {
+  color: #FD6E0A;
+}
+
 /* nav style */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 200px;
-    }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
 /* nav ul style */
-nav ul li{
-    list-style: none;
-margin-right: 51px;
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
 
 }
-.btn-primary{
- background-color: #FD6E0A;
- font-weight: 800;
- color: #FFFFFF;
- border-radius: 5px;
- font-size: 20px;
- padding: 18px 35px; border: none;
+
+.btn-primary {
+  background-color: #FD6E0A;
+  font-weight: 800;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: none;
+
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+
+}
+
+/* banner styles */
+.banner-greadient {
+  font-size: 45px;
+  font-weight: 600px;
+}
+
+.banner-tittle {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner-image {
+
+  width: 584;
+}
+
+.banner {
+  display: flex;
+}
+
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #FFF8F3;
+}
+
+.banner-content {
+  height: 356px;
+  max-width: 585px;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+.banner-description {
+  width: 585;
+  /* font-size: ; */
+}
+
+.section-tittle {
+  font-weight: 800;
+  font-size: 35px;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #757575;
+  text-align: center;
+}
+
+.secendarey-bg {
+  background-color: #FFF8F3;
+}
+
+/* about me styles */
+.about {
+  border-radius: 10px;
+  margin: 0px 220px;
+  padding: 130px 155px;
+  margin-top: 71px;
+
+
+}
+
+/* main styles */
+main {
+  font-weight: 1140px;
+
+}
+
+.main {
+  /* background-color: #FFFFFF; */
+}
+
+.about-iteams {
+  display: flex;
+  justify-content: space-around;
+}
+
+.iteam-description {
+  font-weight: bold;
+}
+
+.text-alignment {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.about-tittle {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.about-all {
+  background-color: #FFFFFF;
+  border: 1px solid;
+}
+
+.skills-container {
+  display: flex;
+  margin: 0px 170px;
+  gap: 24px;
+  padding: 33px;
+}
+
+.skill {
+  padding: 33px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+/* resume-section-style */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.resume{
+  margin: 0px 200px;
+  margin-bottom: 100px;
+}
+.resume-tittle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.resume-coulmn-tittle{
+  font-weight: bold;
+  font-size: 30px;
+}
+.experience-tittle{
+  font-weight: bold;
+  font-size:25px;
+}
+.experience-sub-tittle{
+  font-weight: 600px;
+}
+.experience-description{
+  font-size: 16px;
+  color: #rgba(117, 117, 117, 1);
+}
+.download-cv{
+  color: #FD6E0A;
+  margin-top: 50px;
+  text-align: center;
  
 }
-  nav li a{
-    text-decoration: none;
-  font-size: 20px;
+button{
+  padding: 17px 19px;
  
-  } 
-  .dark-2{
-    color: #474747;
-  }
-  nav ul{
-    display: flex;
-  align-items: center;
-  
-  }
-  /* banner styles */
-  .banner-greadient{
-font-size: 45px;
-font-weight: 600px;
-  }
-  .banner-tittle{
- font-size: 85px; 
- font-weight: bold;  
-  }
-   .banner-image{
-   
-    width: 584;
-   }
-   .banner{
-    display: flex;
-    
-   }
-   .banner-content{
-    height: 356px;
-    max-width: 585px;
-   }
-  .banner-description{
-    width: 585;
-   font-size: ;
-  }
+}
