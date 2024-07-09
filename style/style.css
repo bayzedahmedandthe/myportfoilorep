@@ -47,6 +47,10 @@ nav ul li {
 
 
 }
+.text-center{
+  display: flex;
+  justify-content: center;
+}
 
 
 nav li a {
